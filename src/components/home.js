@@ -15,7 +15,7 @@ function Home() {
           Homepage
         </p>
         {
-          user ? <span> <p> Steam ID: {user.steamID} </p> <p> Token: {user.token} </p> </span> : null
+          user ? <span> <p> Steam ID: {user.steamID} </p> <p> Token: {user.steamToken} </p> </span> : null
         }
       </header>
     </div>
